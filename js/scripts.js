@@ -3,4 +3,5 @@ alert(add(10,5));
 var number1 = parseInt(prompt("Enter a number:"));
 alert(number1);
 var number2 = parseInt(prompt("Enter another number:"));
-alert(add(number1, number2));
+var result = add(number1, number2)
+alert(result);
