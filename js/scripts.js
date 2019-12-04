@@ -27,3 +27,12 @@ var number1 = parseInt(prompt("your weight in kg"));
 var number2 = parseInt(prompt("your height in metres"));
 var result = divided(number1, number2)
 alert(result);
+
+
+var cToF = function(cTemp * 9 / 5 +32)
+var cTemp = celesius;
+var cToFahr = cTemp * 9 / 5 + 32;
+var result = cTemp+'\xB0C is ' + cToFahr + ' \xB0F.';
+alert(result);
+
+var sample_regex = /epicodus/gi
